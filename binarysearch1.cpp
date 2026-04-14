@@ -32,3 +32,42 @@ void input()
         cin >> element[i];
     }
 }
+
+[11.23, 14/4/2026] nisa: void bubbleSortArray()
+{
+    int pass = 1;
+    do
+    {
+        for (int j = 0; j <= nPanjang - 1 - pass; j++)
+        {
+            if (element[j] > element[j + 1])
+            {
+                int temp = element[j];
+                element[j] = element[j + 1];
+                element[j + 1] = temp;
+            }
+        }
+        pass++;
+    } while (pass <= nPanjang - 1);
+}
+
+void display()
+{
+    // Lanjutan fungsi display biasanya berisi loop untuk mencetak isi array
+[11.23, 14/4/2026] nisa: void bubbleSortArray()
+{
+    int pass = 1;
+    do
+    {
+        for (int j = 0; j <= nPanjang - 1 - pass; j++)
+        {
+            if (element[j] > element[j + 1])
+            {
+                int temp = element[j];
+                element[j] = element[j + 1];
+                element[j + 1] = temp;
+            }
+        }
+        pass++;
+    } while (pass <= nPanjang - 1);
+}
