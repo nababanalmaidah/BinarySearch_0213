@@ -135,3 +135,14 @@ void binarySearch()
     cin >> ulang;
 
 } while (ulang == 'y' || ulang == 'Y');
+
+oid binarySearch()
+{
+    do
+    {
+        if (x > element[mid])
+        {
+        }
+    } while (low <= high);
+
+    if (low > high)
